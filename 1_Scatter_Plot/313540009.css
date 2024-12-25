@@ -1,0 +1,63 @@
+body {
+  overflow: hidden;
+}
+
+circle {
+  opacity: 0.3;
+}
+
+text {
+  font-family: sans-serif;
+}
+
+.tick text {
+  font-size: 2.7em;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  font-size: 5em;
+  fill: #8e8883;
+}
+
+.title {
+  font-size: 3.3em;
+  fill: #635f5d;
+}
+
+#menus {
+  padding: 20px 0 30px 300px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#menus select {
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.dots-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}

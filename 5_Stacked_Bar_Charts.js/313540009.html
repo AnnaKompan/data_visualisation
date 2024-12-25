@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stacked Bar Charts</title>
+    <link rel="stylesheet" href="313540009.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+        integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <h1 class="title">
+        Times World University Rankings 2024
+    </h1>
+    <div id="menus">
+        Sort by:
+        <select id="score_criterion_menu">
+            <option value="scoresSum">Overall Scores</option>
+            <option value="scores_teaching">Teaching</option>
+            <option value="scores_research">Research</option>
+            <option value="scores_citations">Citations</option>
+            <option value="scores_industry_income">
+                Industry Income
+            </option>
+            <option value="scores_international_outlook">
+                International Outlook
+            </option>
+        </select>
+        <select id="ascend_descend_menu">
+            <option value="descending">Descending</option>
+            <option value="ascending">Ascending</option>
+        </select>
+    </div>
+
+    <div class="criterion_container">
+        <div class="criterion_container-item">
+            <span class="teaching_dot"></span>Teaching
+        </div>
+        <div class="criterion_container-item">
+            <span class="research_dot"></span>Research
+        </div>
+        <div class="criterion_container-item">
+            <span class="citations_dot"></span>Citations
+        </div>
+        <div class="criterion_container-item">
+            <span class="industry_income_dot"></span>Industry
+            Income
+        </div>
+        <div class="criterion_container-item">
+            <span class="international_dot"></span>International
+            Outlook
+        </div>
+    </div>
+    <div class="comment-box"></div>
+    <svg width="1200"></svg>
+    <script src="313540009.js"></script>
+</body>
+
+</html>

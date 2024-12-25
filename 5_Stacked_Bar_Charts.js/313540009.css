@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+text {
+  font-family: sans-serif;
+}
+.tick text {
+  font-size: 12px;
+  fill: #635f5d;
+}
+
+.tick line {
+  stroke: #c0c0bb;
+}
+
+.axis-label {
+  font-size: 5em;
+  fill: #8e8883;
+}
+.title {
+  font-size: 36px;
+  color: #635f5d;
+}
+#menus {
+  font-size: 19px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  color: #635f5d;
+}
+.menu_selection {
+  color: #635f5d;
+}
+#score_criterion_menu,
+#ascend_descend_menu {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+.criterion_container {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  font-size: 19px;
+  color: #635f5d;
+}
+.criterion_container-item,
+.comment {
+  display: flex;
+  font-size: 19px;
+  gap: 5px;
+  color: #635f5d;
+}
+.teaching_dot {
+  background: #4caf50;
+  width: 20px;
+  height: 20px;
+}
+.research_dot {
+  background: #2196f3;
+  width: 20px;
+  height: 20px;
+}
+.citations_dot {
+  background: #ff9800;
+  width: 20px;
+  height: 20px;
+}
+.industry_income_dot {
+  background: #9c27b0;
+  width: 20px;
+  height: 20px;
+}
+.international_dot {
+  background: #e91e63;
+  width: 20px;
+  height: 20px;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 0.8em;
+  text-align: center;
+}

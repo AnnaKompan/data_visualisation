@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Iris Scatter Plot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+        integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="313540009.css" />
+</head>
+
+<body>
+    <div id="menus">
+        X-Axis:
+        <span id="xmenu"></span>
+        Y-Axis:
+        <span id="ymenu"></span>
+    </div>
+
+    <div class="container">
+        <svg width="960" height="450"></svg>
+
+        <div class="dots-container">
+            <svg width="50" height="50">
+                <circle class="iris-setosa" style="fill: red" stroke="black" cx="30" cy="30" r="20"></circle>
+            </svg>
+            <svg width="50" height="50">
+                <circle class="iris-versicolor" style="fill: blue" stroke="black" cx="30" cy="30" r="20"></circle>
+            </svg>
+            <svg width="50" height="50">
+                <circle class="iris-virginica" style="fill: green" stroke="black" cx="30" cy="30" r="20"></circle>
+            </svg>
+        </div>
+
+        <div class="text-container">
+            <span class="text">Iris-setosa</span>
+            <span class="text">Iris-versicolor</span>
+            <span class="text">Iris-virginica</span>
+        </div>
+    </div>
+    <script src="313540009.js"></script>
+</body>
+
+</html>

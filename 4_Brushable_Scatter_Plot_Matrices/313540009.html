@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Scatter Plot Matrix</title>
+    <link rel="stylesheet" href="313540009.css" />
+    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <svg id="plot"></svg>
+        <div class="dots-container">
+            <svg width="50" height="50">
+                <circle class="iris-setosa" style="fill: red" stroke="black" cx="30" cy="30" r="15"></circle>
+            </svg>
+            <svg width="50" height="50">
+                <circle class="iris-versicolor" style="fill: blue" stroke="black" cx="30" cy="30" r="15"></circle>
+            </svg>
+            <svg width="50" height="50">
+                <circle class="iris-virginica" style="fill: green" stroke="black" cx="30" cy="30" r="15"></circle>
+            </svg>
+        </div>
+
+        <div class="text-container">
+            <span class="text">Iris-setosa</span>
+            <span class="text">Iris-versicolor</span>
+            <span class="text">Iris-virginica</span>
+        </div>
+    </div>
+    <script src="313540009.js" type="module"></script>
+</body>
+
+</html>

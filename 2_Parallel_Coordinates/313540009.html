@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Coordinates</title>
+    <link rel="stylesheet" href="313540009.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+        integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <div class="container">
+        <svg width="1200" height="600"></svg>
+        <div class="dots-container">
+            <svg width="50" height="50">
+                <rect class="iris-setosa" style="fill: red" stroke="black" width="50" height="30" y="10"></rect>
+            </svg>
+            <svg width="50" height="50">
+                <rect class="iris-versicolor" style="fill: blue" stroke="black" width="50" height="30" y="10"></rect>
+            </svg>
+            <svg width="50" height="50">
+                <rect class="iris-virginica" style="fill: green" stroke="black" width="50" height="30" y="10"></rect>
+            </svg>
+        </div>
+
+        <div class="text-container">
+            <span class="text">Iris-setosa</span>
+            <span class="text">Iris-versicolor</span>
+            <span class="text">Iris-virginica</span>
+        </div>
+    </div>
+    <script type="module" src="313540009.js"></script>
+</body>
+
+</html>

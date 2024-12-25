@@ -1,0 +1,40 @@
+body {
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 14px;
+}
+
+rect.selected {
+  stroke: red;
+  stroke-width: 5px;
+}
+
+.axis .domain {
+  display: none;
+}
+.axis .tick text.selected {
+  font-weight: bold;
+  font-size: 14px;
+  fill: red;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+div.head_title {
+  font-size: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
